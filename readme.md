@@ -1,6 +1,10 @@
-Cordova Demos
+Contact API pickContact Example
 ===
 
-This repository contains a set of Cordova (PhoneGap) example apps. Each folder contains the www folder for a project. To use it, you may either copy the files manually into a www folder, or use the --copy-from option of the Cordova CLI.
+This example demonstrates the new pickContact support for the Contacts
+API. Please run the following line to add the plugin:
 
-Each folder has its own readme with individual instructions for the project.
+    cordova plugin add org.apache.cordova.contacts
+
+This example demonstrates the new API by firing off a call to pickContact
+and then displaying the selected result.
